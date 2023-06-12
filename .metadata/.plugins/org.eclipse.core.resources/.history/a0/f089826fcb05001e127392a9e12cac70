@@ -1,0 +1,23 @@
+class Tv03{
+	String color;
+	int channel;
+	/*클래스 소속 맴버변수에서 String타입 변수 color는 null, int
+	 * 타입 변수 channel 은 0으로 각각 기본값으로 초기화가 된다.
+	 * 
+	 */
+	void channelUp() {
+		++channel;
+	}
+	void channelDown() {
+		--channel;
+	}
+}
+public class Test03 {
+	public static void main(String[] args) {
+		
+		Tv03 t1 = new Tv03();
+		Tv03 t2 = new Tv03();
+		
+		System.out.println("tv01채널번호="+t1.channel+", tv02채널번호="+t2.channel);
+	}
+}

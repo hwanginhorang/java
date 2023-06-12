@@ -1,0 +1,19 @@
+
+public class Ex12_01 {
+	public static void main(String[] args) {
+		int a=2, b=1;
+		double c=1.1, d=2.2;
+		
+		if(a>b) {
+			System.out.println(a);
+		}else {
+			System.out.println(b);
+		}
+		
+		if(c>d) {
+			System.out.println(c);
+		}else {
+			System.out.println(d);
+		}
+	}
+}

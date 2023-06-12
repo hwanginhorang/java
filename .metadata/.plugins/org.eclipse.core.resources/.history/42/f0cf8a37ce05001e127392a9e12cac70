@@ -1,0 +1,10 @@
+class Thing{
+	public int x;
+}
+public class ThingTest01 {
+	public static void main(String[] args) {
+		Thing th = new Thing();
+		th.x = 10;
+		System.out.println(th.x);
+	}
+}
